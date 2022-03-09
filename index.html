@@ -3,28 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="CSS/style.css" />
-<!--<script type="text/javascript">
-    //<!CDATA[
-        var bodyBgs = [];
-        bodyBgs[0] = "images/01.jpg";
-        bodyBgs[1] = "images/02.jpg";
-        bodyBgs[2] = "images/03.jpg";
-        bodyBgs[3] = "images/04.jpg";
-        bodyBgs[4] = "images/05.jpg";
-
-        var randomBgIndex = Math.round( Math.random() * 4 );
-
-    //输出随机的背景图
-        document.write('<style>body{background:url(' + bodyBgs[randomBgIndex] + ') no-repeat 50% 0}</style>');
-    //]]>
-    </script>-->
+<script src="js/UTC.js"></script>
 <title>局域网公告系统</title>
 </head>
 <body>
-    <a href="https://hyperbeam.com/"><img src="./images/logo.png" width="100" height="100"/></a>
+    <a href="https://hyperbeam.com/" style="float: left;"><img src="./images/LOGO.jpg" width="100" height="100"/></a>
+    <p id="demo" style="position: absolute;right: 0px;background:#48f6; border-radius: 10px 0px 0px 10px;font-size:40px;"></p>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
     <article>
         <div class="a">
-            <h3>↑上方显示"不安全"?没关系，你只是在局域网内，黑客进不来</h3>
+            <h3>↑上方显示"不安全"?没关系，你只是在局域网内，没啥好危险的</h3>
         </div>
     </article>
     <br /> 
@@ -45,20 +40,18 @@
             <input size="30" name="q" placeholder="在Github中搜索" type="text" style="background-color: #f9f9f9 ;border-radius:20px 20px 20px 20px;color:#999999;width: 40%;height: 30px;" />   
             <input name="Search" value="搜索" type="submit" style="background-color: #f9f9f9 ;border-radius:20px 20px 20px 20px;color:#999999;height: 35px;width:60px;"/>   
         </form> 
-        <form action="http://fsou.cc/search" method="get">   
-            <input name="ie" value="UTF-8" type="hidden" />   
-            <input size="30" name="q" placeholder="在F搜中搜索" type="text" style="background-color: #f9f9f9 ;border-radius:20px 20px 20px 20px;color:#999999;width: 40%;height: 30px;" />   
-            <input name="Search" value="搜索" type="submit" style="background-color: #f9f9f9 ;border-radius:20px 20px 20px 20px;color:#999999;height: 35px;width:60px;"/>   
-        </form>      
     </div>
     <br />
     <br />
     <div class="b">
-        <h1>公告1</h1><p>2022/1/11</p>
-        <p>这是一段测试文字</p>
+        <h1>置顶公告</h1><p>2022/2/23</p>
+        <p>下载文件请到<a href="./Files/">这里</a>下载</p>
     <hr />
-        <h1>公告2</h1><p>2022/1/11</p>
-        <p>这是另一段带<a href="https://google.com">链接</a>的公告</p>
+        <h1>版本公告</h1><p>2022/3/9</p>
+        <p>局域网V1.1更新</p>
+    <hr />
+        <h1>更新日志</h1><p>2022/3/9</p>
+        <p>个人认为更高级一点了，稍微美观一点点，下一步就是插入视频了</p>
     </div>
 </body>
 </html>

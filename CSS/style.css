@@ -1,6 +1,6 @@
 body
 {
-    background-color: #9a9a9a;
+    background-image: linear-gradient(to bottom right,#ebe717, #7ec6bc);
 }
 div.a
 {
@@ -15,11 +15,20 @@ div.a
 div.b
 {
     border-radius:20px 20px 20px 20px;
-    width: 50%; 
+    width: 40%; 
     text-align: center;
     margin: auto;
-    border:10px solid #5c3700;
-    background:#063100;
+    border:10px solid #aaaaaa33;
+    background:#063100aa;
+}
+div.c
+{
+    border-radius:20px 20px 20px 20px;
+    text-align: center;
+    width: 15%;
+    margin: auto;
+    border:1px solid #ff8422;
+    background-image: linear-gradient(to bottom right, #00FFEF , pink);
 }
 div.search
 {
